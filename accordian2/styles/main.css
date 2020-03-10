@@ -1,0 +1,41 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  height: 100vh;
+  justify-content: center;
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: flex-start;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(120, 102, 160);
+  text-align: center;
+}
+
+.button {
+  width: 200px;
+  padding: 10px;
+  background: rgb(166, 166, 173);
+  outline: none;
+  border: 1px solid rgb(60, 60, 73);
+}
+
+.content {
+  width: 200px;
+}
+
+.show {
+  display: none;
+}
+
+p {
+  background: white;
+  padding: 9px 0;
+  margin: 0;
+}
